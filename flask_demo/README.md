@@ -1,5 +1,8 @@
 ## Setup
 
+Video Tutorial
+https://youtu.be/rak2vj2mahM
+
 From the root directory, pip install our requirements.txt
 ```
 pip install -r requirements.txt
