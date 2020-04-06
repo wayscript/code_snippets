@@ -20,6 +20,11 @@ Code Snippets from YouTube tutorial Videos
   * [Reference WayScript Script](https://wayscript.com/shared/D9ToJA2M)
  
  ### - Selenium Powered Web Scraping with Python in the Cloud
+  * [Youtube Tutorial](https://youtu.be/JU2GjEEj0TY)
+  * [Reference Blog Post](https://wayscript.com/learn/web-scraping-python-cloud)
+  * [Code Used in Video]()
+  * [Reference WayScript Script](https://wayscript.com/shared/D9ToJA2M)
+ 
   
  ### - Run Python in the cloud via webhook
  
