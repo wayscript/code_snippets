@@ -16,7 +16,7 @@ Code Snippets from YouTube tutorial Videos
   ### - Schedule a Python Script to Run Daily
   * [Youtube Tutorial](https://youtu.be/PHyrJ3fOmas)
   * [Reference Blog Post](https://wayscript.com/learn/schedule-python-script-run-daily)
-  * [Code Used in Video]()
+  * [Code Used in Video](https://github.com/wayscript/code_snippets/blob/master/Python%20Programming%20in%20the%20Cloud/web_scraping_with_python_cloud.py)
   * [Reference WayScript Script](https://wayscript.com/shared/D9ToJA2M)
  
  ### - Selenium Powered Web Scraping with Python in the Cloud
