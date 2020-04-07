@@ -22,11 +22,15 @@ Code Snippets from YouTube tutorial Videos
  ### - Selenium Powered Web Scraping with Python in the Cloud
   * [Youtube Tutorial](https://youtu.be/JU2GjEEj0TY)
   * [Reference Blog Post](https://wayscript.com/learn/web-scraping-python-cloud)
-  * [Code Used in Video]()
+  * [Code Used in Video](https://github.com/wayscript/code_snippets/blob/master/Python%20Programming%20in%20the%20Cloud/web_scraping_with_python_cloud.py)
   * [Reference WayScript Script](https://wayscript.com/shared/D9ToJA2M)
  
   
  ### - Run Python in the cloud via webhook
+  * [Youtube Tutorial](https://youtu.be/bqE7wqTzyMQ)
+  * [Reference Blog Post]()
+  * [Code Used in Video]()
+  * [Reference WayScript Script](https://wayscript.com/shared/OH4fGc3x)
  
 ## Task Automation
   ### - Connect a Form to a SQL Database
