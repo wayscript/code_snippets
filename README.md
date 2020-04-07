@@ -26,9 +26,9 @@ Code Snippets from YouTube tutorial Videos
   * [Reference WayScript Script](https://wayscript.com/shared/D9ToJA2M)
  
   
- ### - Run Python in the cloud via webhook
+ ### - Run Python in the cloud via URL
   * [Youtube Tutorial](https://youtu.be/bqE7wqTzyMQ)
-  * [Reference Blog Post]()
+  * [Reference Blog Post](https://wayscript.com/learn/running-python-via-url)
   * [Code Used in Video]()
   * [Reference WayScript Script](https://wayscript.com/shared/OH4fGc3x)
  
