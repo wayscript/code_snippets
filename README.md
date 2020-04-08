@@ -62,9 +62,8 @@ Code Snippets from YouTube tutorial Videos
 ## Build & Process Datasets
   ### - Schedule SQL queries on your database
   * [Youtube Tutorial](https://youtu.be/V83pDqulQSE)
-  * [Reference Blog Post]()#Not complete
-  * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
+  * [Reference Blog Post](https://wayscript.com/learn/schedule-sql-queries-your-database)
+  * [Reference WayScript Script](https://wayscript.com/user/derricks/Hw_3bkmr)
  
  ### - Connect a SQL database to Google Sheets
  * [Youtube Tutorial](https://youtu.be/dAHERgtN5cI)
