@@ -42,22 +42,22 @@ Code Snippets from YouTube tutorial Videos
  
 ## Task Automation
   ### - Connect a Form to a SQL Database
-  * [Youtube Tutorial]()#Not complete
-  * [Reference Blog Post]()#Not complete
+  * [Youtube Tutorial](https://youtu.be/2f70NT1EoCM)
+  * [Reference Blog Post](https://wayscript.com/learn/write-web-form-data-mysql-databases)
   * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
+  * [Reference WayScript Script](https://wayscript.com/user/derricks/YGLemiWL)
  
  ### - Build a Slack SQL Inventory Bot
-  * [Youtube Tutorial]()#Not complete
-  * [Reference Blog Post]()#Not complete
+  * [Youtube Tutorial](https://youtu.be/bVdLiNBO06w)
+  * [Reference Blog Post](https://wayscript.com/learn/creating-slack-bots-track-product-inventory)
   * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
+  * [Reference WayScript Script](https://wayscript.com/user/derricks/NbSXuiG4)
   
  ### - Automate Updates to your Google Sheet or Airtable
-  * [Youtube Tutorial]()#Not complete
-  * [Reference Blog Post]()#Not complete
+  * [Youtube Tutorial](https://youtu.be/K-6aKwoN0kE)
+  * [Reference Blog Post](https://wayscript.com/learn/copy-sql-data-google-sheets-daily)
   * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
+  * [Reference WayScript Script](https://wayscript.com/user/derricks/6PshoWal)
 
 ## Build & Process Datasets
   ### - Schedule SQL queries on your database
