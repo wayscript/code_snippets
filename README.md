@@ -3,6 +3,10 @@ Code Snippets from YouTube tutorial Videos
 
 ## Create Internal Tools and Bots
  ### - Build an Employee Helpdesk Ticketing System
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
  
  #### - Build a Slack SQL Notification Bot
   * [Youtube Tutorial](https://youtu.be/bVdLiNBO06w)
@@ -11,6 +15,10 @@ Code Snippets from YouTube tutorial Videos
   * [Reference WayScript Script](https://wayscript.com/user/derricks/NbSXuiG4)
   
  ### - Capture Weekly Sales Data, Visualizations, and Send Email
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
 
 ## Python Programming in the Cloud
   ### - Schedule a Python Script to Run Daily
@@ -34,32 +42,77 @@ Code Snippets from YouTube tutorial Videos
  
 ## Task Automation
   ### - Connect a Form to a SQL Database
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
  
  ### - Build a Slack SQL Inventory Bot
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
   
  ### - Automate Updates to your Google Sheet or Airtable
-
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
 
 ## Build & Process Datasets
   ### - Schedule SQL queries on your database
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
  
  ### - Connect a SQL database to Google Sheets
+ * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
   
  ### - Write web form data to mySQL database
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
 
 
 ## Trigger Notifications & Alerts
   ### - Send a SMS message when order volume increases
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
  
  ### - Create a team slack notification when a page is pushed live from your website
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
   
  ### - Trigger an email and slack notification when your code is deployed
-
-
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
 
 ## Create Web Interfaces 
   ### - Seamlessy nuild a frontend/GUI for your scripts
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
  
  ### - Create a dashboard of SQL datasets
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
   
  ### - Build Beautiful Data Visualizations on the Cloud
+  * [Youtube Tutorial]()#Not complete
+  * [Reference Blog Post]()#Not complete
+  * [Code Used in Video]()#Not complete
+  * [Reference WayScript Script]()#Not complete
