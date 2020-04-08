@@ -44,19 +44,19 @@ Code Snippets from YouTube tutorial Videos
   ### - Connect a Form to a SQL Database
   * [Youtube Tutorial](https://youtu.be/2f70NT1EoCM)
   * [Reference Blog Post](https://wayscript.com/learn/write-web-form-data-mysql-databases)
-  * [Code Used in Video]()#Not complete
+  * [Code Used in Video](https://github.com/wayscript/code_snippets/blob/master/Task%20Automation/web_form_to_mysql_db.sql)
   * [Reference WayScript Script](https://wayscript.com/user/derricks/YGLemiWL)
  
  ### - Build a Slack SQL Inventory Bot
   * [Youtube Tutorial](https://youtu.be/bVdLiNBO06w)
   * [Reference Blog Post](https://wayscript.com/learn/creating-slack-bots-track-product-inventory)
-  * [Code Used in Video]()#Not complete
+  * [Code Used in Video](https://github.com/wayscript/code_snippets/tree/master/Task%20Automation/Slack_SQL_Inventory_Bot)
   * [Reference WayScript Script](https://wayscript.com/user/derricks/NbSXuiG4)
   
  ### - Automate Updates to your Google Sheet or Airtable
   * [Youtube Tutorial](https://youtu.be/K-6aKwoN0kE)
   * [Reference Blog Post](https://wayscript.com/learn/copy-sql-data-google-sheets-daily)
-  * [Code Used in Video]()#Not complete
+  * [Code Used in Video](https://github.com/wayscript/code_snippets/blob/master/Task%20Automation/google_sheets_from_sql.sql)
   * [Reference WayScript Script](https://wayscript.com/user/derricks/6PshoWal)
 
 ## Build & Process Datasets
@@ -69,13 +69,13 @@ Code Snippets from YouTube tutorial Videos
  ### - Connect a SQL database to Google Sheets
  * [Youtube Tutorial](https://youtu.be/dAHERgtN5cI)
   * [Reference Blog Post](https://wayscript.com/learn/connect-sql-database-google-sheets)
-  * [Code Used in Video]()#Not complete
+  * [Code Used in Video](https://github.com/wayscript/code_snippets/blob/master/DatabaseExamples/Update_google_sheets_automatically.py)
   * [Reference WayScript Script](https://wayscript.com/user/derricks/O46XH_yf)
   
  ### - Write web form data to mySQL database
   * [Youtube Tutorial](https://youtu.be/2f70NT1EoCM)
   * [Reference Blog Post](https://wayscript.com/learn/write-web-form-data-mysql-databases)
-  * [Code Used in Video]()#Not complete
+  * [Code Used in Video](https://github.com/wayscript/code_snippets/blob/master/DatabaseExamples/form_to_sql.sql)
   * [Reference WayScript Script](https://wayscript.com/user/derricks/17033)
 
 
