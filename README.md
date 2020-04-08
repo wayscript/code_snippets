@@ -61,22 +61,22 @@ Code Snippets from YouTube tutorial Videos
 
 ## Build & Process Datasets
   ### - Schedule SQL queries on your database
-  * [Youtube Tutorial]()#Not complete
+  * [Youtube Tutorial](https://youtu.be/V83pDqulQSE)
   * [Reference Blog Post]()#Not complete
   * [Code Used in Video]()#Not complete
   * [Reference WayScript Script]()#Not complete
  
  ### - Connect a SQL database to Google Sheets
- * [Youtube Tutorial]()#Not complete
-  * [Reference Blog Post]()#Not complete
+ * [Youtube Tutorial](https://youtu.be/dAHERgtN5cI)
+  * [Reference Blog Post](https://wayscript.com/learn/connect-sql-database-google-sheets)
   * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
+  * [Reference WayScript Script](https://wayscript.com/user/derricks/O46XH_yf)
   
  ### - Write web form data to mySQL database
-  * [Youtube Tutorial]()#Not complete
-  * [Reference Blog Post]()#Not complete
+  * [Youtube Tutorial](https://youtu.be/2f70NT1EoCM)
+  * [Reference Blog Post](https://wayscript.com/learn/write-web-form-data-mysql-databases)
   * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
+  * [Reference WayScript Script](https://wayscript.com/user/derricks/17033)
 
 
 ## Trigger Notifications & Alerts
@@ -99,7 +99,7 @@ Code Snippets from YouTube tutorial Videos
   * [Reference WayScript Script]()#Not complete
 
 ## Create Web Interfaces 
-  ### - Seamlessy nuild a frontend/GUI for your scripts
+  ### - Seamlessy build a frontend/GUI for your scripts
   * [Youtube Tutorial]()#Not complete
   * [Reference Blog Post]()#Not complete
   * [Code Used in Video]()#Not complete
