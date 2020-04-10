@@ -86,7 +86,7 @@ Code Snippets from YouTube tutorial Videos
   * [Reference WayScript Script]()#Not complete
  
  ### - Create a team slack notification when a page is pushed live from your website
-  * [Youtube Tutorial]()#Not complete
+  * [Youtube Tutorial](https://youtu.be/B0lTRKebIZo)
   * [Reference Blog Post]()#Not complete
   * [Code Used in Video]()#Not complete
   * [Reference WayScript Script]()#Not complete
