@@ -85,11 +85,10 @@ Code Snippets from YouTube tutorial Videos
   * [Code Used in Video]()#Not complete
   * [Reference WayScript Script]()#Not complete
  
- ### - Create a team slack notification when a page is pushed live from your website
+ ### - Create a team slack notification when a commit is pushed
   * [Youtube Tutorial](https://youtu.be/B0lTRKebIZo)
-  * [Reference Blog Post]()#Not complete
-  * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
+  * [Reference Blog Post](https://wayscript.com/learn/create-slack-notification-when-your-github-repo-has-new-commit)
+  * [Reference WayScript Script](https://wayscript.com/user/derricks/17965)
   
  ### - Trigger an email and slack notification when your code is deployed
   * [Youtube Tutorial]()#Not complete
