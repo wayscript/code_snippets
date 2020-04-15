@@ -3,8 +3,8 @@ Code Snippets from YouTube tutorial Videos
 
 ## Create Internal Tools and Bots
  ### - Build an Employee Helpdesk Ticketing System
-  * [Youtube Tutorial]()#Not complete
-  * [Reference Blog Post]()#Not complete
+  * [Youtube Tutorial]() # Not Complete
+  * [Reference Blog Post](https://wayscript.com/learn/build-employee-help-desk-ticketing-system)
   * [Code Used in Video]()#Not complete
   * [Reference WayScript Script]()#Not complete
  
@@ -15,8 +15,8 @@ Code Snippets from YouTube tutorial Videos
   * [Reference WayScript Script](https://wayscript.com/user/derricks/NbSXuiG4)
   
  ### - Capture Weekly Sales Data, Visualizations, and Send Email
-  * [Youtube Tutorial]()#Not complete
-  * [Reference Blog Post]()#Not complete
+  * [Youtube Tutorial]() # Not complete
+  * [Reference Blog Post](https://wayscript.com/learn/automate-weekly-sales-data-reporting)
   * [Code Used in Video]()#Not complete
   * [Reference WayScript Script]()#Not complete
 
@@ -81,7 +81,7 @@ Code Snippets from YouTube tutorial Videos
 ## Trigger Notifications & Alerts
   ### - Send a SMS message when order volume increases
   * [Youtube Tutorial](https://youtu.be/fqFKpPXi0qc)
-  * [Reference Blog Post]()#Not complete
+  * [Reference Blog Post](https://wayscript.com/learn/automate-text-messages-when-database-conditional-changes)
   * [Code Used in Video]()#Not complete
   * [Reference WayScript Script]()#Not complete
  
@@ -91,26 +91,26 @@ Code Snippets from YouTube tutorial Videos
   * [Reference WayScript Script](https://wayscript.com/user/derricks/17965)
   
  ### - Trigger an email and slack notification when your code is deployed
-  * [Youtube Tutorial]()#Not complete
-  * [Reference Blog Post]()#Not complete
+  * [Youtube Tutorial]() # Not Complete
+  * [Reference Blog Post](https://wayscript.com/learn/trigger-notifications-when-your-code-is-deployed)
   * [Code Used in Video]()#Not complete
   * [Reference WayScript Script]()#Not complete
 
 ## Create Web Interfaces 
   ### - Seamlessy build a frontend/GUI for your scripts
-  * [Youtube Tutorial]()#Not complete
-  * [Reference Blog Post]()#Not complete
+  * [Youtube Tutorial]() # Not Complete
+  * [Reference Blog Post](https://wayscript.com/learn/seamlessly-build-guis-your-scripts)
   * [Code Used in Video]()#Not complete
   * [Reference WayScript Script]()#Not complete
  
  ### - Create a dashboard of SQL datasets
-  * [Youtube Tutorial]()#Not complete
-  * [Reference Blog Post]()#Not complete
+  * [Youtube Tutorial]()#Not Complete
+  * [Reference Blog Post](https://wayscript.com/learn/create-dashboard-sql-datasets)
   * [Code Used in Video]()#Not complete
   * [Reference WayScript Script]()#Not complete
   
  ### - Build Beautiful Data Visualizations on the Cloud
-  * [Youtube Tutorial]()#Not complete
-  * [Reference Blog Post]()#Not complete
+  * [Youtube Tutorial]() #Not Complete
+  * [Reference Blog Post](https://wayscript.com/learn/build-beautiful-data-visualizations-cloud)
   * [Code Used in Video]()#Not complete
   * [Reference WayScript Script]()#Not complete
