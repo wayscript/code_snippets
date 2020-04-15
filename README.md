@@ -80,7 +80,7 @@ Code Snippets from YouTube tutorial Videos
 
 ## Trigger Notifications & Alerts
   ### - Send a SMS message when order volume increases
-  * [Youtube Tutorial]()#Not complete
+  * [Youtube Tutorial](https://youtu.be/fqFKpPXi0qc)
   * [Reference Blog Post]()#Not complete
   * [Code Used in Video]()#Not complete
   * [Reference WayScript Script]()#Not complete
