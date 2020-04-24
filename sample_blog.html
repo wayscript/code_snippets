@@ -1,0 +1,104 @@
+<div class='entry-content text-contrast'>
+    <h2 class='section-header'>Introduction</h2>
+    <p class='content'>
+        If you spend any time at all on Discord, you know just how helpful a good bot can be. From automatically handling user requests, providing valuable information, and monitoring your users, these bots can have a wide array of functionality.
+        In this tutorial, let's see how we can use WayScript, a bit of programming, and discord to create these bots.
+    </p>
+
+    <h2 class='section-header'>Prerequisites</h2>
+    <p class='content'>
+      No prerequisites but some content you might find helpful:
+        <ul>
+          <li><a href="https://docs.wayscript.com/library/modules/discord">Working with Discord</a></li>
+          <li><a href="https://docs.wayscript.com/library/modules/python">Working with Python</a></li>
+        </ul>
+    </p>
+
+    <h2 class='section-header'>Building our Script</h2>
+    <p class='content'>
+      With WayScript, we build our functionality into scripts. We can create a new script on our account by clicking the "create a script" button by our profile image.
+      <center class='image-container'>
+      <img class='content-image' src='/blog_img/83/1.png'>
+      </center>
+      This gives us a blank workspace that we can add something called <i>modules</i> into. These modules are sort of like building blocks, to help form the foundation of our application.
+
+    </p>
+
+    <h2 class='section-header'>Pulling Data from our Database</h2>
+    <p class='content'>
+      We support several data storage intergrations. Among these are <a href="https://docs.wayscript.com/library/modules/sql">sql databases</a>, <a href="https://docs.wayscript.com/library/modules/google-sheets">google sheets</a>,
+      <a href="https://docs.wayscript.com/library/modules/excel">excel</a>, <a href="https://docs.wayscript.com/library/modules/airtable"> airtable</a>, and others. We'll use a sql database for this example, but the other data storages function in a similar way.
+      <br><br>
+      <b>Connecting our Data Storage</b> is relatively straight forward. Once we create a script on our profile, we pull the module into the script.
+      <center class='image-container'>
+      <img class='content-image' src='/blog_img/77/1.png'>
+      </center>
+      If you've never used that module before, you'll be asked to authenticate WayScript or to connect your database. If you get stuck in setting up your database, this <a href="https://youtu.be/hR_grpalY-8">video tutorial</a> may be of use.
+      Once you've connected your database, we can click on edit code to the left. This gives us the ability to write full sql commands against our database, just like how we would locally.
+      <br><br>
+      <center class='image-container'>
+      <img class='content-image' src='/blog_img/77/2.png'>
+      </center>
+      <br><br>
+      Our SQL can be whatever we need to meet our requirements. We can query and write from this editing screen.
+      Let's write something simple:
+      <textarea class="insert-code" id="code_0">SELECT SUM(quantity)
+FROM order_summary
+WHERE product='A';</textarea>
+<br><br>
+Next, we can import the values that we need from the database into WayScript. Here there's only one values because we're using an SQL sum function, but if your data has multiple columns, there will be multiple to import available.
+<center class='image-container'>
+<img class='content-image' src='/blog_img/77/3.png'>
+</center>
+Once we import this data, it becomes available to us as a variable to be used throughout the rest of our script. We can pass this value or list (representing your column) on to whatever module we want to use for additional processing.
+    </p>
+
+    <h2 class='section-header'>Processing our Data</h2>
+    <p class='content'>
+      To process or filter the data to meet your requirements, we have developed tools for all types of users. Nontechnical users may enjoy the programming logic we have built into the platform. Any looping, conditionals, or iterations can be done using drag and drop modules.
+      A more technical user may enjoy writing custom code to do this part of the automation. We currently support some programming languages such as <a href="https://docs.wayscript.com/library/modules/python">Python</a> and <a href="https://docs.wayscript.com/library/modules/javascript">JavaScript</a>.
+      If your programming language of choice is not currently supported, reach out to us on our discord. We're always happy to implement new modules!
+      <br><br>
+      An example of using python code to process your dataset, would look like this in your editor:
+      <center class='image-container'>
+      <img class='content-image' src='/blog_img/77/4.png'>
+      </center>
+      Using python to do this processing is very straight forward. We would use the variables we created with the SQL module, import them into the python editor, and output the processed data as a variable. We have a <a href="https://youtu.be/qKmv-6CcVvY">youtube video tutorial</a> of working with Python
+       if you would like to see more about working with python.
+    </p>
+
+    <h2 class='section-header'>Working with Data Visualizations</h2>
+    <p class='content'>
+      On WayScript, we have built in data visualization tools that you can use. We would use these by pulling in the charts module below our processing step. In the example that we're building, that would look something like this:
+      <br><br>
+      <center class='image-container'>
+      <img class='content-image' src='/blog_img/77/5.png'>
+      </center>
+      <br><br>
+      The charts module can be used to build bar and line charts that work as variable objects. That means we can pass them to other modules in our workflow, such as online dashboards.
+      Creating an example chart might look something like this:
+      <br><br>
+      <center class='image-container'>
+      <img class='content-image' src='/blog_img/77/6.png'>
+      </center>
+      <br><br>
+      We can specify multiple series on the same graph, create separate charts for different series, or whatever else your requirements involve. Like stated above, this visualization becomes a variable that we can pass to other modules throughout our workflow. This can be useful if you're building a dashboard type url for your teammates to view your data.
+    </p>
+
+    <h2 class='section-header'>Working with Dashboards</h2>
+    <p class='content'>
+      We know how to get data now, how to process it, and how to create visualizations with it. Let's look at how we can create dashboards with it now. Dashboards on WayScript will provide an URL that you can password protected if you want to.
+      To create a dashboard, we'll need to enable url endpoints in our script using the http trigger. This will give us the url. upon anyone visiting this url, our script will run. Let's serve a response to the user of a dashboard.
+      Our script would now look like this:
+      <br><br>
+      <center class='image-container'>
+      <img class='content-image' src='/blog_img/77/8.png'>
+      </center>
+      <br><br>
+    </p>
+
+    <h2 class='section-header'>Example of a Completed Dashboard</h2>
+    <p class='content'>
+      While not sales related, if you want to view a completed dashboard. We have a company one hosted <a href="https://13679.wayscript.io/">here</a>. Each time someone visits the url, a similar occurrence happens that was described above. Data is pulled from a source, is processed, placed into charts, and then those charts are passed to the dashboard response.
+      If you want to see that script, it is available on our marketplace our found <a href="https://wayscript.com/shared/Go62IAEy">here</a>.
+    </p>
