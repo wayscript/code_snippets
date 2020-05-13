@@ -82,8 +82,7 @@ Code Snippets from YouTube tutorial Videos
   ### - Send a SMS message when order volume increases
   * [Youtube Tutorial](https://youtu.be/fqFKpPXi0qc)
   * [Reference Blog Post](https://wayscript.com/learn/automate-text-messages-when-database-conditional-changes)
-  * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
+  * [Reference WayScript Script](https://wayscript.com/user/derricks/qTc-gQR5)
  
  ### - Create a team slack notification when a commit is pushed
   * [Youtube Tutorial](https://youtu.be/B0lTRKebIZo)
