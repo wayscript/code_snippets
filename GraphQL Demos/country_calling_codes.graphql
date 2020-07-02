@@ -1,0 +1,8 @@
+query {
+      CallingCode {
+        name
+        countries {
+          name
+        }
+      }
+    }
