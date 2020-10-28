@@ -83,3 +83,8 @@ Code Snippets from YouTube tutorial Videos
   * [Reference WayScript Script](https://wayscript.com/user/derricks/17965)
 
 ## Create Web Interfaces 
+ ### - Build a Hosted Dashboard from Google Sheets Data
+  * [Youtube Tutorial](https://youtu.be/mz8DFYgx4i0)
+  * [Reference Blog Post](https://wayscript.com/learn/build-hosted-dashboard-google-sheets-data)
+  * [Reference WayScript Script](https://wayscript.com/marketplace/IPGJJGIe)
+ 
