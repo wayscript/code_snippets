@@ -14,6 +14,12 @@ Code Snippets from YouTube tutorial Videos
   * [Reference Blog Post](https://wayscript.com/learn/schedule-python-script-run-daily)
   * [Code Used in Video](https://github.com/wayscript/code_snippets/blob/master/Python%20Programming%20in%20the%20Cloud/web_scraping_with_python_cloud.py)
   * [Reference WayScript Script](https://wayscript.com/shared/D9ToJA2M)
+  
+  ### Generate Automated Weekly Excel Reports with Python
+  * [Youtube Tutorial](https://youtu.be/xn5ZlH2u2RE)
+  * [Reference Blog Post](https://wayscript.com/learn/generate-automated-weekly-excel-reports-using-python-wayscript)
+  * [Reference WayScript Script](https://wayscript.com/team/avengers/CZPh4DLF)
+  
  
  ### - Selenium Powered Web Scraping with Python in the Cloud
   * [Youtube Tutorial](https://youtu.be/JU2GjEEj0TY)
