@@ -2,23 +2,11 @@
 Code Snippets from YouTube tutorial Videos
 
 ## Create Internal Tools and Bots
- ### - Build an Employee Helpdesk Ticketing System
-  * [Youtube Tutorial]() # Not Complete
-  * [Reference Blog Post](https://wayscript.com/learn/build-employee-help-desk-ticketing-system)
-  * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
- 
  #### - Build a Slack SQL Notification Bot
   * [Youtube Tutorial](https://youtu.be/bVdLiNBO06w)
   * [Reference Blog Post](https://wayscript.com/learn/creating-slack-bots-track-product-inventory)
   * [Code Used in Video](https://github.com/wayscript/code_snippets/blob/master/slack-inventory-bot.py)
   * [Reference WayScript Script](https://wayscript.com/user/derricks/NbSXuiG4)
-  
- ### - Capture Weekly Sales Data, Visualizations, and Send Email
-  * [Youtube Tutorial]() # Not complete
-  * [Reference Blog Post](https://wayscript.com/learn/automate-weekly-sales-data-reporting)
-  * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
 
 ## Python Programming in the Cloud
   ### - Schedule a Python Script to Run Daily
@@ -37,7 +25,6 @@ Code Snippets from YouTube tutorial Videos
  ### - Run Python in the cloud via URL
   * [Youtube Tutorial](https://youtu.be/bqE7wqTzyMQ)
   * [Reference Blog Post](https://wayscript.com/learn/running-python-via-url)
-  * [Code Used in Video]()
   * [Reference WayScript Script](https://wayscript.com/shared/OH4fGc3x)
  
 ## Task Automation
@@ -88,28 +75,5 @@ Code Snippets from YouTube tutorial Videos
   * [Youtube Tutorial](https://youtu.be/B0lTRKebIZo)
   * [Reference Blog Post](https://wayscript.com/learn/create-slack-notification-when-your-github-repo-has-new-commit)
   * [Reference WayScript Script](https://wayscript.com/user/derricks/17965)
-  
- ### - Trigger an email and slack notification when your code is deployed
-  * [Youtube Tutorial]() # Not Complete
-  * [Reference Blog Post](https://wayscript.com/learn/trigger-notifications-when-your-code-is-deployed)
-  * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
 
 ## Create Web Interfaces 
-  ### - Seamlessy build a frontend/GUI for your scripts
-  * [Youtube Tutorial]() # Not Complete
-  * [Reference Blog Post](https://wayscript.com/learn/seamlessly-build-guis-your-scripts)
-  * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
- 
- ### - Create a dashboard of SQL datasets
-  * [Youtube Tutorial]()#Not Complete
-  * [Reference Blog Post](https://wayscript.com/learn/create-dashboard-sql-datasets)
-  * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
-  
- ### - Build Beautiful Data Visualizations on the Cloud
-  * [Youtube Tutorial]() #Not Complete
-  * [Reference Blog Post](https://wayscript.com/learn/build-beautiful-data-visualizations-cloud)
-  * [Code Used in Video]()#Not complete
-  * [Reference WayScript Script]()#Not complete
