@@ -69,6 +69,11 @@ Code Snippets from YouTube tutorial Videos
   * [Reference Blog Post](https://wayscript.com/learn/write-web-form-data-mysql-databases)
   * [Code Used in Video](https://github.com/wayscript/code_snippets/blob/master/DatabaseExamples/form_to_sql.sql)
   * [Reference WayScript Script](https://wayscript.com/user/derricks/17033)
+  
+  ### - Write CSV Files from Your SQL DBs
+  * [Youtube Tutorial](https://www.youtube.com/watch?v=b5RCv2ehrxg)
+  * [Reference Blog Post](https://wayscript.com/learn/programmatically-write-csv-files-sql-data)
+  * [Reference WayScript Script](https://wayscript.com/team/avengers/F5cTLjRo)
 
 
 ## Trigger Notifications & Alerts
