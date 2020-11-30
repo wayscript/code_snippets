@@ -1,5 +1,4 @@
-# code_snippets
-Code Snippets from YouTube tutorial Videos
+![GitHub Logo](static/img/DevelopmentHub.png)
 
 ## Create Internal Tools and Bots
  #### - Build a Slack SQL Notification Bot
