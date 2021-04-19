@@ -1,80 +1,70 @@
 import boto3
+from botocore.exceptions import ClientError
 
-# build boto3 session
-def build_session():
-    session = boto3.Session(
-        region_name='us-east-2',
-        aws_access_key_id='',
-        aws_secret_access_key='',
-    )
-
-    ec2 = session.resource('ec2')
+def build_client():
+    ec2 = boto3.client(
+    'ec2',
+    region_name = 'us-east-2',
+    aws_access_key_id='AKIA2RXXMI6RQIMH4GQE',
+    aws_secret_access_key='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'
+)
     return ec2
 
-# Get Instance info
-def view_running_instances( ec2 ):
-    instances = ec2.instances.filter(
-    Filters=[{'Name': 'instance-state-name', 'Values': ['running']}])
-    running_instances = []
-    for instance in instances:
-        i = {}
-        i['id'] = instance.id
-        i['type'] = instance.instance_type
-        i['state'] = instance.state
-        print(instance.id, instance.instance_type, instance.state)
-        running_instances.append(i)
-    variables['instances'] = running_instances
+def ec2_info( ):
+    ec2 = build_client()
+    response = ec2.describe_instances()
+    return response
 
-#  Start a stopped instance
-def control_instance( ec2, instance_id, action ):
-    if action == 'ON':
-    # Do a dryrun first to verify permissions
+def check_instance_state( instance_id ):
+    ec2 = build_client()
+    response = ec2.describe_instance_status(
+    InstanceIds = [ instance_id ] )
     try:
-        ec2.start_instances(InstanceIds=[instance_id], DryRun=True)
-    except ClientError as e:
-        if 'DryRunOperation' not in str(e):
-            raise
+        instance_status = response.get( 'InstanceStatuses' )[0].get('InstanceState').get('Name')
+        response = instance_status
+    except:
+        response = 'not running'
+    return response
 
-    # Dry run succeeded, run start_instances without dryrun
-    try:
-        response = ec2.start_instances(InstanceIds=[instance_id], DryRun=False)
-        print(response)
-    except ClientError as e:
-        print(e)
-
+def turn_instance_on( instance_id ):
+    ec2 = build_client()
+    current_state = check_instance_state( instance_id )
+    if current_state == 'not running':
+        try:
+            response = ec2.start_instances(InstanceIds=[instance_id], DryRun=False)
+            new_state = response.get('StartInstances')[0].get('CurrentState').get('Name')
+            return 'Success'
+        except ClientError as response:
+            return response
     else:
-    # Do a dryrun first to verify permissions
-    try:
-        ec2.stop_instances(InstanceIds=[instance_id], DryRun=True)
-    except ClientError as e:
-        if 'DryRunOperation' not in str(e):
-            raise
+        return 'Instace Already Running'
 
-    # Dry run succeeded, call stop_instances without dryrun
-    try:
-        response = ec2.stop_instances(InstanceIds=[instance_id], DryRun=False)
-        print(response)
-    except ClientError as e:
-        print(e)
 
-#Reboot an instance
-def reboot_instances( ec2, instance_id ):
-    try:
-    ec2.reboot_instances(InstanceIds=['INSTANCE_ID'], DryRun=True)
-    except ClientError as e:
-        if 'DryRunOperation' not in str(e):
-            print("You don't have permission to reboot instances.")
-            raise
+def turn_instance_off( instance_id ):
+    ec2 = build_client()
+    current_state = check_instance_state( instance_id )
+    if current_state == 'running':
+        try:
+            response = ec2.stop_instances(InstanceIds=[instance_id], DryRun=False)
+            old_state = response.get('StoppingInstances')[0].get('PreviousState').get('Name')
+            new_state = response.get('StoppingInstances')[0].get('CurrentState').get('Name')
+        except ClientError as e:
+            print(e)
+    else:
+        return 'Instance Already Off'
 
-    try:
-        response = ec2.reboot_instances(InstanceIds=['INSTANCE_ID'], DryRun=False)
-        print('Success', response)
-    except ClientError as e:
-        print('Error', e)
+def reboot_an_instance( instance_id ):
+    ec2 = build_client()
+    current_state = check_instance_state( instance_id )
+    if current_state == 'running':
+        try:
+            response = ec2.reboot_instances(InstanceIds=[ instance_id ], DryRun=False)
+            return 'Success'
+        except ClientError as e:
+            print('Error', e)
+    else:
+        return 'Cannot Reboot - Instance Not Running'
 
-ec2 = build_session()
-#view_running_instances( ec2 )
-#instance_id = variables['Alert'].get('instance_id')
-#change = variables['Alert'].get('change')
-#control_instance( ec2, instance_id, change )
-#reboot_instances( ec2, instance_id )
+#print(ec2_info( ) )
+micro_instance = 'i-095eaf403ed90d73f'
+print(reboot_an_instance( micro_instance ))
