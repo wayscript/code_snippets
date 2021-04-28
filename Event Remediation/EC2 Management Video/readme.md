@@ -42,7 +42,7 @@ After creating this user, we have access to two keys, these keys can be passed t
 In our code, we can create a boto3 client accessing aws EC2 resources by using a function and then calling that function in our code.
 The objet returned will be the client we can reference, here it is called *ec2*
 
-<code>
+<cpre>
 def build_client():
     ec2 = boto3.client(
     'ec2',
@@ -51,7 +51,7 @@ def build_client():
     aws_secret_access_key='<yourSecretKey>'
 )
     return ec2
-</code>    
+</pre>    
 
 **WayScript supports storing secrets in your projects**
 With the .env and .secrets files inside your file manager, you can create variables which hide your keys from the editor.
@@ -60,7 +60,7 @@ With the .env and .secrets files inside your file manager, you can create variab
 Once our session is created, we can access any method of the boto3 EC2 client.
 
 To turn an instance on, we may have some code that looks like this:
-<code>
+<pre>
 def turn_instance_on( instance_id ):
     ec2 = build_client()
     current_state = check_instance_state( instance_id )
@@ -73,4 +73,4 @@ def turn_instance_on( instance_id ):
             return response
     else:
         return 'Instace Already Running'
-        </code>
+        </pre>
