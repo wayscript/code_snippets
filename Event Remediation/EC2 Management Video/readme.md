@@ -42,7 +42,7 @@ After creating this user, we have access to two keys, these keys can be passed t
 In our code, we can create a boto3 client accessing aws EC2 resources by using a function and then calling that function in our code.
 The objet returned will be the client we can reference, here it is called *ec2*
 
-<cpre>
+<pre>
 def build_client():
     ec2 = boto3.client(
     'ec2',
