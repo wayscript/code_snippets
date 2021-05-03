@@ -5,8 +5,8 @@ def build_client():
     ec2 = boto3.client(
     'ec2',
     region_name = 'us-east-2',
-    aws_access_key_id='AKIA2RXXMI6RQIMH4GQE',
-    aws_secret_access_key='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'
+    aws_access_key_id='',
+    aws_secret_access_key=''
 )
     return ec2
 
