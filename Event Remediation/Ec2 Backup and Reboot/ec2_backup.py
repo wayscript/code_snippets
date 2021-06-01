@@ -3,15 +3,16 @@ from botocore.exceptions import ClientError
 import pandas as pd
 from datetime import datetime
 
-
 def build_client():
     ec2 = boto3.client(
     'ec2',
     region_name = 'us-east-2',
-    aws_access_key_id='',
-    aws_secret_access_key=''
+    aws_access_key_id=󰀂v.2-key_id󰀂,
+    aws_secret_access_key=󰀂v.3-secret_key_id󰀂
     )
     return ec2
+
+#print(build_client())
 
 def ec2_info( ):
     ec2 = build_client()
@@ -27,30 +28,29 @@ def ec2_info( ):
                 instances_info.append( a )
     return instances_info
 
-# Create the snapshot on S3
+#print(ec2_info())
+
+# create snapshots
 def ec2_running_instances_backup():
     response = ec2_info()
     unique_volumes = []
     for instance in response:
-        if instance[3] = 'running' and instance[2] not in unique_volumes :
+        if instance[3] == 'running' and instance[2] not in unique_volumes :
             ec2 = build_client()
-            ec2.create_snapshot(instance[2])
+            instance = str(instance[2])
+            ec2.create_snapshot(VolumeId=instance)
             unique_volumes.append(instance[2])
-            print('Snapshot created for volume:' instance[2])
+            print('Snapshot created for volume: ' + str(instance[2]))
     return unique_volumes
 
-# Reboot instances
 def reboot_running_ec2():
     instances = ec2_info()
     ec2 = build_client()
     for instance in instances:
-        if instance[3] = 'running':
+        if instance[3] == 'running':
             response = ec2.reboot_instances(
     InstanceIds=[instance[1]],
     )
 
-
-print(ec2_info())
-now = datetime.now()
-dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-print(dt_string)
+print(ec2_running_instances_backup())
+print(reboot_running_ec2())
